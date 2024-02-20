@@ -1,0 +1,5 @@
+.env
+install
+redux
+react-redux
+react-router-dom
