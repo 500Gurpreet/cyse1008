@@ -1,0 +1,124 @@
+[debug] [2024-02-20T15:06:53.159Z] ----------------------------------------------------------------------
+[debug] [2024-02-20T15:06:53.160Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gurpr\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-20T15:06:53.161Z] CLI Version:   13.3.0
+[debug] [2024-02-20T15:06:53.161Z] Platform:      win32
+[debug] [2024-02-20T15:06:53.161Z] Node Version:  v20.11.0
+[debug] [2024-02-20T15:06:53.161Z] Time:          Tue Feb 20 2024 10:06:53 GMT-0500 (Eastern Standard Time)
+[debug] [2024-02-20T15:06:53.161Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-20T15:06:53.215Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-20T15:06:53.216Z] > authorizing via signed-in user (gurpreetchahalkhiva@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\gurpr\OneDrive\Documents\cyse1008
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-20T15:08:06.340Z] Using project from CLI flag: cyse1008-9bfeb
+[debug] [2024-02-20T15:08:06.343Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb [none]
+[debug] [2024-02-20T15:08:18.475Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com
+[debug] [2024-02-20T15:08:18.476Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb (original: request to https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com)
+[debug] [2024-02-20T15:08:23.482Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\gurpr\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:258:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-02-20T15:08:57.471Z] ----------------------------------------------------------------------
+[debug] [2024-02-20T15:08:57.473Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gurpr\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-20T15:08:57.473Z] CLI Version:   13.3.0
+[debug] [2024-02-20T15:08:57.473Z] Platform:      win32
+[debug] [2024-02-20T15:08:57.473Z] Node Version:  v20.11.0
+[debug] [2024-02-20T15:08:57.473Z] Time:          Tue Feb 20 2024 10:08:57 GMT-0500 (Eastern Standard Time)
+[debug] [2024-02-20T15:08:57.473Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-20T15:08:57.517Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-20T15:08:57.518Z] > authorizing via signed-in user (gurpreetchahalkhiva@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\gurpr\OneDrive\Documents\cyse1008
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-20T15:09:46.092Z] Using project from CLI flag: cyse1008-9bfeb
+[debug] [2024-02-20T15:09:46.095Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb [none]
+[debug] [2024-02-20T15:09:46.148Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com
+[debug] [2024-02-20T15:09:46.148Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb (original: request to https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com)
+[debug] [2024-02-20T15:09:46.151Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb
+    at RetryOperation._fn (C:\Users\gurpr\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:246:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project cyse1008-9bfeb. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-02-20T15:09:50.672Z] ----------------------------------------------------------------------
+[debug] [2024-02-20T15:09:50.674Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gurpr\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-20T15:09:50.675Z] CLI Version:   13.3.0
+[debug] [2024-02-20T15:09:50.675Z] Platform:      win32
+[debug] [2024-02-20T15:09:50.675Z] Node Version:  v20.11.0
+[debug] [2024-02-20T15:09:50.675Z] Time:          Tue Feb 20 2024 10:09:50 GMT-0500 (Eastern Standard Time)
+[debug] [2024-02-20T15:09:50.675Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-20T15:09:50.741Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-20T15:09:50.741Z] > authorizing via signed-in user (gurpreetchahalkhiva@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\gurpr\OneDrive\Documents\cyse1008
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-20T15:10:22.801Z] Using project from CLI flag: cyse1008-9bfeb
+[debug] [2024-02-20T15:10:22.803Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb [none]
+[debug] [2024-02-20T15:10:22.851Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com
+[debug] [2024-02-20T15:10:22.851Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb (original: request to https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com)
+[debug] [2024-02-20T15:10:22.855Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/cyse1008-9bfeb
+    at RetryOperation._fn (C:\Users\gurpr\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:246:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project cyse1008-9bfeb. Please make sure the project exists and your account has permission to access it.
